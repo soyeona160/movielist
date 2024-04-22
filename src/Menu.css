@@ -1,0 +1,19 @@
+.menu-item{
+    text-decoration: none;
+    flex: 1;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item:hover{
+    background-color: rgb(140, 160, 179);
+}
+
